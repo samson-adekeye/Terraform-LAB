@@ -31,4 +31,3 @@ variable "versioning" {
     description = "(Optional) A state of versioning."
     default     = true
 }
-
