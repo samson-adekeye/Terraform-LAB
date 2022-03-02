@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mys3bucket-jan"
+    bucket = "newtrial2022"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "my-dynamo-table"
+    dynamodb_table = "tryingagain"
   }
 }
